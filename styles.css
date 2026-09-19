@@ -26,14 +26,15 @@ html {
     text-align: justify;
 }
 
-.skills-tags li {
+.skill-tags li {
     padding: 6px 12px;
     color: white;
     background-color: cornflowerblue;
     border-radius: 15px;
     font-size: 14px;
 }
-#skills-layout {
+
+.skills-layout {
     display: flex;
     gap: 20px;
     align-items: stretch;
