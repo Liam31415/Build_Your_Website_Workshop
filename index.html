@@ -44,7 +44,26 @@
                 </div>
             </div>
         </div>
-        
+        <div id="portfolio-guide">
+            <h2>Ask about my work</h2>
+
+            <form id="guide-form">
+                <label for="guide-question">
+                    What would you like to know?
+                </label>
+                <input
+                id="guide-question"
+                type="text"
+                placeholder="What projects have you built?"
+                maxlength="300"
+                requires
+                >
+
+                <button type="submit">Ask Gemini</button>
+            </form>
+
+            <p id="guide-answer"></p>
+        </div>
         <button id="dark-mode-btn">Toggle Dark Mode</button>
         <script src="script.js"></script>
     </body>

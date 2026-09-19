@@ -105,3 +105,42 @@ body {
 .dark-mode #download-button {
     background-color: #2b399f;
 }
+#portfolio-guide {
+    margin-top: 30px;
+    max-width: 600px;
+}
+
+#guide-form {
+    display: flex;
+    flex_wrap: wrap;
+    gap: 10px;
+}
+
+#guide-form label {
+    width: 100%;
+}
+
+#guide-question {
+    flex: 1;
+    min-width: 220px;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+#guide-form button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#guide-answer {
+    margin-top: 15px;
+    line-height: 1.5;
+}
